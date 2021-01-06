@@ -1,0 +1,15 @@
+<dialog buttons="accept, cancel" title="Rhubarb">
+<grid>
+	<columns>
+        <column/>
+    </columns>
+	<rows>
+		<row>
+			<label control="rhubarbData" value="Rhubarb Output:" />
+		</row>
+		<row>
+			<textbox id="rhubarbData" size="50" multiline="true" value="" />
+		</row>
+	</rows>
+</grid>
+</dialog>

@@ -1,0 +1,1 @@
+Just a little extension script for Flash 8 Professional to work with Rhubarb lip syncing
