@@ -8,3 +8,5 @@ Put Rhubarb.jsfl in the "Commands" folder and rhubarb.xml in the XULControls fol
 4. Click OK
 
 It should populate the timeline with the appropriate keyframes.
+
+Note: need to manually edit the framerate if it's not 30 FPS.
