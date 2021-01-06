@@ -1,0 +1,44 @@
+﻿<macromedia-extension
+	 name="Rhubarb Lip sync"
+	 version="0.9.0"
+	 id="rhubarb_lip_sync"
+	 type="flashpanel"
+	 force-quit="true"
+	 locked="false"
+	 ismultilingual="false"
+	 mxiversion="6.0.0"
+	 xmanversion="6.0.0">
+
+	<defaultLanguage>en_US</defaultLanguage>
+
+	<author name="wcbx" />
+
+	<products>
+		<product name="Flash" version="8" primary="true" required="true" />
+	</products>
+
+	<update  />
+
+	<description resid="desc">
+	<![CDATA[
+	Rhubarb lip syncing
+	]]>
+	</description>
+
+	<ui-access resid="ui-access">
+	<![CDATA[
+	Commands menu
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	</license-agreement>
+
+	<files>
+		<file source="Commands/Rhubarb.jsfl" destination="$Flash/Commands/Rhubarb.jsfl" file-type="ordinary" />
+		<file source="XULControls/rhubarb.xml" destination="$Flash/XULControls/rhubarb.xml" file-type="ordinary" />
+	</files>
+
+	<signatures />
+
+</macromedia-extension>
