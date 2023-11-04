@@ -5,6 +5,12 @@
     </columns>
 	<rows>
 		<row>
+			<label control="framerate" value="Framerate:" />
+		</row>
+		<row>
+			<textbox id="framerate" size="10" multiline="false" value="30" />
+		</row>
+		<row>
 			<label control="rhubarbData" value="Rhubarb Output:" />
 		</row>
 		<row>

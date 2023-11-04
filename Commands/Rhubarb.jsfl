@@ -15,8 +15,14 @@ function run() {
 		return;
 	}
 
+	if(result.framerate == "") {
+		alert("No framerate");
+		return;
+	}
+
 	doc.selectNone;
 
+	framerate = result.framerate;
 	var data = result.rhubarbData;
 	var lines = data.split("\n");
 	var fnames = "ABCDEFGHX";
